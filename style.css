@@ -15,6 +15,10 @@ body{
     background-color: #F3F5FC;
 }
 
+button {
+    cursor: pointer;
+}
+
 .header {
     text-align: center;
     margin-top: 40px;

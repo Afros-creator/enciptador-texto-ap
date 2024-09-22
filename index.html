@@ -15,19 +15,19 @@
     <main class="encriptador_contenido">
         <section class="seccion_dos">
             <div class="seccion_dos_textarea">
-                <textarea name="textarea1" id="textoAEncriptar" placeholder="Ingrese el texto aquí" class="textarea"></textarea>
+                <textarea name="textarea1"placeholder="Ingrese el texto aquí" class="textarea"  id="textoAEncriptar"></textarea>
                 <p class="mensaje"><i class="fa-solid fa-circle-exclamation"></i> Solo texto en minúsculas y sin acentos</p>
             </div>
             <div class="botones">
-                <button class="boton_encriptar">Encriptar</button>
-                <button class="boton_desencriptar">Desencriptar</button>
+                <button class="boton_encriptar" onclick="encriptarTexto()">Encriptar</button>
+                <button class="boton_desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
             </div>
         </section>
         <section class="seccion_tres">
             <div class="seccion_dos_division_textarea2">
                 <textarea name="textarea2" id="textarea2" class="textarea2"></textarea>
                 <button class="boton_copiar">Copiar</button>
-                <img src="Imagenes/1.png" alt="lupa" class="imagen">
+                <img src="Imagenes/1.png" alt="lupa" class="imagen" id="lupaImagen">
             </div>
         </section>
 
@@ -36,5 +36,6 @@
         <p class="footer">Desarrollado por Andrés Felipe Robles Sánchez</p>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
 </body>
 </html>

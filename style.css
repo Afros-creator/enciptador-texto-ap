@@ -105,6 +105,7 @@ textarea::placeholder {
     border-radius: 32px;
     width: 400px;
     height: 710px;
+    font-size: 32px;
 }
 
 .imagen { 

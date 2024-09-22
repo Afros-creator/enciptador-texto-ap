@@ -25,3 +25,11 @@ function esconderImagen() {
     document.getElementById("lupaImagen").style.display = "none";
 }
 
+function copiarTexto() {
+    let textoACopiar = document.getElementById("textarea2").value; 
+    let botonCopiar = document.getElementById("boton_copiar"); 
+
+    navigator.clipboard.writeText(textoACopiar);
+    document.getElementById("boton_copiar").textContent = "Copiado";
+    document.getElementById("boton_copiar").style.textDecoration = "underline";
+}
